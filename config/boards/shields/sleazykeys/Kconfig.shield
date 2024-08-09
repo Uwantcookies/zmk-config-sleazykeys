@@ -1,0 +1,8 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_SLEAZYKEYS_LEFT
+    def_bool $(shields_list_contains,sleazykeys_left)
+
+config SHIELD_SLEAZYKEYS_RIGHT
+    def_bool $(shields_list_contains,sleazykeys_right)

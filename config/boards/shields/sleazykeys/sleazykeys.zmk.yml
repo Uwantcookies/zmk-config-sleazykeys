@@ -1,0 +1,12 @@
+file_format: "1"
+id: sleazykeys
+name: Sleazykeys
+type: shield
+url: https://github.com/Uwantcookies/zmk-config-sleazykeys
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - sleazykeys_left
+  - sleazykeys_right
